@@ -87,7 +87,7 @@ footer{
 }
 
 
-@media screen and (min-device-width: 412px) and (max-device-width: 915px) { 
+@media screen and (min-device-width: 1080px) and (max-device-width: 1081px) { 
   /* STYLES HERE */
   *{
     margin: 0;
