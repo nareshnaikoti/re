@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -71,8 +72,121 @@ footer{
   background-color: black;
   color: white;
   display: flex;
-  padding: 10px;
-  justify-content: space-between;
+  padding: 20px;
+  justify-content:space-around;
   width: 100%;
 }
 
+.f-logo{
+  
+  margin-left: 1450px;
+  top: 620px;
+  position: fixed;
+
+
+}
+
+
+@media screen and (min-device-width: 412px) and (max-device-width: 915px) { 
+  /* STYLES HERE */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    background-color: black;
+    padding: 4px;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    
+}
+.pic-ctn{
+   display: flex;
+   justify-content: space-evenly; 
+   margin: 0px;
+}
+.forms{
+    display: flex;
+    width: 60%;
+    padding: 1px;
+    margin-bottom: 1px;
+    margin-left: 300px;
+ }
+  .f3{
+    width: 57.2%;
+    margin-left: 300px;
+    box-sizing: border-box;
+  }
+
+input {
+padding: 5px;
+    margin: 10px;
+    width: 50%;
+    height: 40px;
+    border: 1px solid rgb(132, 128, 128);
+    }
+
+.dis{
+  width: 60%;
+  margin-left: 300px;
+  text-align: justify;
+}
+
+#check{
+  position: absolute;
+  width: 20px;
+  display: inline;
+  margin-left: 2px;
+}
+.terms{
+  position: relative;
+  top: 23px;
+  margin-left: 40px;
+
+}
+
+.submit{
+  width: 100px;
+  margin-left:0px;
+  border: 2px solid red;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  margin-left: 200px;
+  width: 100%;
+  display: flex;
+  font-size: smaller;
+  padding: 10px;
+}
+
+.f-logo{
+  
+  margin-left: 530px;
+  position: fixed;
+  top: 790px;
+  width: 100%;
+
+
+}
+.mbody{
+  width: 100%;
+  margin-left: -200px;
+}
+
+.fmbody{
+  width: 62%;
+  margin-left: 299px;
+  ;
+}
+
+}
