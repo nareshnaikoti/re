@@ -173,7 +173,7 @@ footer{
   
   margin-left: 280px;
   position: fixed;
-  top: 670px;
+  top: 610px;
   width: 100%;
 
 
@@ -193,16 +193,17 @@ footer{
 }
 
 body{
-  border: 2px solid red;
+  border: 0.5px solid red;
   border-radius: 5px;
-  padding: 3px;
+  padding: 0px 3px;
 }
 
 .dis{
   width: 75%;
+  margin-left: 280px;
   
 }
 p{
-  font: 50;
+  font: 1;
 }
 }
